@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import { FaMarkdown, FaCss3, FaHtml5, FaJsSquare } from 'react-icons/fa'
+import { FaMarkdown, FaCss3, FaHtml5, FaJsSquare, FaFilePdf } from 'react-icons/fa'
 
 const StyledNavbar = styled.nav`
   display: flex;
+  height: 50px;
   padding-left: 50px;
+  position: fixed;
+  top: 25px; left: 0; right: 0;
 `;
 
 const StyledLink = styled(Link)`
@@ -42,6 +45,10 @@ export default function Navbar({ path }) {
       <StyledLink to="/about" className={path === '/about' && 'active'}>
         <FaJsSquare style={{ marginRight: 5 }} />
         about.js
+      </StyledLink>
+      <StyledLink to="/resume" className={path === '/resume' && 'active'}>
+        <FaFilePdf style={{ marginRight: 5 }} />
+        resume.pdf
       </StyledLink>
     </StyledNavbar>
   )

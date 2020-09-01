@@ -7,6 +7,8 @@ const StyledStatusBar = styled.div`
   display: flex;
   height: 25px;
   justify-content: space-between;
+  position: fixed;
+  top: 0; left: 0; right: 0;
 `
 
 const StyledStatusText = styled.p`
