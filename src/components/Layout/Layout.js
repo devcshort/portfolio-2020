@@ -11,7 +11,7 @@ export default function Layout({ children, location }) {
       <StatusBar />
       <Sidebar />
       <Navbar path={location.pathname} />
-      <main style={{ paddingLeft: 60, paddingTop: 75, overflowY: 'auto'  }}>
+      <main style={{ paddingLeft: 60, paddingTop: 85, overflowY: 'auto'  }}>
         { children }
       </main>
     </div>

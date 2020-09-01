@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import { FaMarkdown, FaCss3, FaHtml5, FaJsSquare, FaFilePdf } from 'react-icons/fa'
+import { FaMarkdown, FaJsSquare, FaFilePdf } from 'react-icons/fa'
 
 const StyledNavbar = styled.nav`
   display: flex;
