@@ -33,8 +33,6 @@ const StyledLink = styled(Link)`
 `
 
 export default function Navbar({ path }) {
-  console.log(path)
-
   return (
     <StyledNavbar>
       <StyledLink to="/" className={path === '/' && 'active'}>
