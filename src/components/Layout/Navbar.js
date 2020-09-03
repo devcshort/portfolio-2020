@@ -9,10 +9,12 @@ const StyledNavbar = styled.nav`
   padding-left: 50px;
   position: fixed;
   top: 25px; left: 0; right: 0;
+  z-index: 9999;
 `;
 
 const StyledLink = styled(Link)`
   align-items: center;
+  background-color: #222B33;
   color: #fff;
   display: flex;
   justify-content: center;
