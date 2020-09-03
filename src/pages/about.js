@@ -42,6 +42,7 @@ export default function About() {
       <code>  <GraySyntax>databases</GraySyntax>   <PurpleSyntax>=</PurpleSyntax> <OrchidSyntax>[</OrchidSyntax><GreenSyntax>'MongoDB'</GreenSyntax><GraySyntax>,</GraySyntax> <GreenSyntax>'DynamoDB'</GreenSyntax><OrchidSyntax>]</OrchidSyntax><GraySyntax>;</GraySyntax></code>
       <code>  <GraySyntax>frameworks</GraySyntax>  <PurpleSyntax>=</PurpleSyntax> <OrchidSyntax>[</OrchidSyntax><GreenSyntax>'React'</GreenSyntax><GraySyntax>,</GraySyntax> <GreenSyntax>'Vue'</GreenSyntax><GraySyntax>,</GraySyntax> <GreenSyntax>'.NET Framework/Core'</GreenSyntax><OrchidSyntax>]</OrchidSyntax><GraySyntax>;</GraySyntax></code>
       <code><GoldSyntax>&#125;</GoldSyntax></code>
+      <code></code>
     </pre>
   )
 }
