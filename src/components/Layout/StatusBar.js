@@ -24,7 +24,13 @@ const Dot = styled.div`
   width: 12px;
 `
 
-export default function StatusBar() {
+const CurrentDocument = {
+  '/': 'Preview README.md',
+  '/about': 'about.js',
+  '/resume': 'resume.pdf'
+}
+
+export default function StatusBar({ path }) {
   return (
     <StyledStatusBar>
       <div style={{ display: 'flex' }}>
@@ -32,7 +38,7 @@ export default function StatusBar() {
         <Dot style={{ backgroundColor: 'rgb(253, 216, 0)', marginRight: '.3rem' }} />
         <Dot style={{ backgroundColor: 'rgb(90, 192, 90)' }} />
       </div>
-      <StyledStatusText>- Chris R. Short</StyledStatusText>
+      <StyledStatusText>{ CurrentDocument[path] } - Chris R. Short</StyledStatusText>
       <div></div>
     </StyledStatusBar>
   )

@@ -9,7 +9,7 @@ import './CodeFormatting.css'
 export default function Layout({ children, location }) {
   return (
     <div>
-      <StatusBar />
+      <StatusBar path={location.pathname} />
       <Sidebar />
       <Navbar path={location.pathname} />
       <main style={{ paddingLeft: 60, paddingTop: 85, paddingRight: 10, overflowY: 'auto'  }}>
