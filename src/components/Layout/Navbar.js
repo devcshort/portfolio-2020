@@ -15,7 +15,7 @@ const StyledNavbar = styled.nav`
 const StyledLink = styled(Link)`
   align-items: center;
   background-color: #222B33;
-  color: #fff;
+  color: #4F565D;
   display: flex;
   justify-content: center;
   font-size: .8rem;
@@ -26,6 +26,7 @@ const StyledLink = styled(Link)`
 
   &.active {
     background-color: #1d252b;
+    color: #fff;
   }
 
   &.active&:after {
@@ -41,11 +42,11 @@ export default function Navbar({ path }) {
   return (
     <StyledNavbar>
       <StyledLink to="/" className={path === '/' && 'active'}>
-        <FaMarkdown style={{ marginRight: 5 }} />
+        <FaMarkdown style={{ marginRight: 5, color: '#1F90FF' }} />
         Preview README.md
       </StyledLink>
       <StyledLink to="/about" className={path === '/about' && 'active'}>
-        <FaJsSquare style={{ marginRight: 5 }} />
+        <FaJsSquare style={{ marginRight: 5, color: '#F7DF1E' }} />
         about.js
       </StyledLink>
       <StyledLink to="/resume" className={path === '/resume' && 'active'}>

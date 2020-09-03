@@ -1,0 +1,16 @@
+pre.code {
+  white-space: pre-wrap;
+}
+pre.code:before {
+  counter-reset: lineCount;
+}
+pre.code code {
+  counter-increment: lineCount;
+  display: block;
+}
+pre.code code::before {
+  color: #4F565D;
+  content: counter(lineCount) " ";
+  display: inline-block;
+  width: 1.5rem;
+}

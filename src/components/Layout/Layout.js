@@ -4,6 +4,7 @@ import StatusBar from './StatusBar'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 import './Layout.css'
+import './CodeFormatting.css'
 
 export default function Layout({ children, location }) {
   return (
