@@ -50,7 +50,7 @@ export default function Navbar({ path }) {
         about.js
       </StyledLink>
       <StyledLink to="/resume" className={path === '/resume' && 'active'}>
-        <FaFilePdf style={{ marginRight: 5 }} />
+        <FaFilePdf style={{ marginRight: 5, color: '#fff' }} />
         resume.pdf
       </StyledLink>
     </StyledNavbar>
