@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import { FaMarkdown, FaJsSquare, FaFilePdf } from 'react-icons/fa'
+import { VscFile } from 'react-icons/vsc'
 
 const StyledNavbar = styled.nav`
   display: flex;
@@ -23,6 +24,7 @@ const StyledLink = styled(Link)`
   padding: .5rem 1rem;
   position: relative;
   text-decoration: none;
+  white-space: nowrap;
 
   &.active {
     background-color: #1d252b;
@@ -52,6 +54,10 @@ export default function Navbar({ path }) {
       <StyledLink to="/resume" className={path === '/resume' && 'active'}>
         <FaFilePdf style={{ marginRight: 5, color: '#fff' }} />
         resume.pdf
+      </StyledLink>
+      <StyledLink to="/portfolio" className={path === '/portfolio' && 'active'}>
+        <VscFile style={{ marginRight: 5, color: '#fff' }} />
+        Extension: Portfolio
       </StyledLink>
     </StyledNavbar>
   )

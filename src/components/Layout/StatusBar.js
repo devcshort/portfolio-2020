@@ -27,7 +27,8 @@ const Dot = styled.div`
 const CurrentDocument = {
   '/': 'Preview README.md',
   '/about': 'about.js',
-  '/resume': 'resume.pdf'
+  '/resume': 'resume.pdf',
+  '/portfolio': 'Extension: Portfolio'
 }
 
 export default function StatusBar({ path }) {
