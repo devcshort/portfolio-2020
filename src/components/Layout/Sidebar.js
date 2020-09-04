@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { VscFiles, VscSourceControl, VscExtensions } from 'react-icons/vsc'
+import { FaLinkedinIn } from 'react-icons/fa'
 
 const StyledSidebar = styled.div`
   background-color: #1d252b;
@@ -59,6 +60,9 @@ export default function Sidebar() {
       </IconLink>
       <IconLink href="https://www.npmjs.com/~nightlight" target="_blank" rel="noopener noreferrer" title="Npmjs">
         <VscExtensions />
+      </IconLink>
+      <IconLink href="https://www.linkedin.com/in/devcshort/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <FaLinkedinIn />
       </IconLink>
     </StyledSidebar>
   )
