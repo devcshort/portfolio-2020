@@ -72,7 +72,10 @@ export default function Portfolio() {
             <h3 style={{ margin: 0 }}>react-hls-player</h3>
             <p style={{ margin: 0, fontWeight: 600, fontSize: '.8rem' }}>NPM Package</p>
             <p style={{ fontSize: '1rem', marginBottom: '.5rem' }}>React HLS Player was a project that had been abandoned and had some really weird bugs that wouldn't work for my project. So, I forked the project, fixed the bugs, and pushed for others to use. Since them I've implemented the fixes for all of the issues that were created for the original package and have decided to support it long term.</p>
-            <p style={{ margin: 0 }}><a href="https://www.npmjs.com/package/react-hls-player" target="_blank" rel="noopener noreferrer">View Package</a></p>
+            <div style={{ display: 'flex' }}>
+              <p style={{ margin: 0, marginRight: '1rem' }}><a href="https://www.npmjs.com/package/react-hls-player" target="_blank" rel="noopener noreferrer">View Package</a></p>
+              <p style={{ margin: 0 }}><a href="https://github.com/devcshort/react-hls" target="_blank" rel="noopener noreferrer">View Source</a></p>
+            </div>
           </div>
         </div>
 
@@ -96,7 +99,10 @@ export default function Portfolio() {
             <h3 style={{ margin: 0 }}>StackInbox</h3>
             <p style={{ margin: 0, fontWeight: 600, fontSize: '.8rem' }}>Chrome Extension</p>
             <p style={{ fontSize: '1rem', marginBottom: '.5rem' }}>I got tired of having to keep an extra tab open just to watch over my Stack Overflow inbox for new notifications, so I built this extension to not only let me view my Stack Overflow inbox, but also show a notification icon when I have an unread message. I deployed it to the Chrome Store in case anyone else runs in to the same issues I do.</p>
-            <p style={{ margin: 0 }}><a href="https://chrome.google.com/webstore/detail/stackinbox/fphiplmebgimlmpikocgkdffkmmenmha" target="_blank" rel="noopener noreferrer">View in the Chrome Store</a></p>
+            <div style={{ display: 'flex' }}>
+              <p style={{ margin: 0, marginRight: '1rem' }}><a href="https://chrome.google.com/webstore/detail/stackinbox/fphiplmebgimlmpikocgkdffkmmenmha" target="_blank" rel="noopener noreferrer">View in the Chrome Store</a></p>
+              <p style={{ margin: 0 }}><a href="https://github.com/devcshort/stack-inbox" target="_blank" rel="noopener noreferrer">View Source</a></p>
+            </div>
           </div>
         </div>
       </div>
