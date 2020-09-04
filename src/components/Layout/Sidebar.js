@@ -61,7 +61,7 @@ export default function Sidebar() {
       <IconLink href="https://www.npmjs.com/~nightlight" target="_blank" rel="noopener noreferrer" title="Npmjs">
         <VscExtensions />
       </IconLink>
-      <IconLink href="https://blog.chrisrshort.com" target="_blank" rel="noopener noreferrer" title="My Blog">
+      <IconLink href="https://blog.chrisrshort.com" target="_blank" rel="noopener noreferrer" title="Blog">
         <FaBlog />
       </IconLink>
       <IconLink href="https://www.linkedin.com/in/devcshort" target="_blank" rel="noopener noreferrer" title="LinkedIn">
