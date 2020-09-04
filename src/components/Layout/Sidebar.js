@@ -10,6 +10,7 @@ const StyledSidebar = styled.div`
   position: fixed;
   top: 25px; left: 0; bottom: 0;
   width: 50px;
+  z-index: 99999;
 `
 
 const IconButton = styled.div`
