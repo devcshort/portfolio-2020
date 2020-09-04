@@ -5,7 +5,7 @@ import SEO from '../components/seo'
 
 const IndexPage = () => (
   <div>
-    <SEO title="Chris R. Short" />
+    <SEO title="Preview README.md" />
       <div style={{ maxWidth: `200px`, marginLeft: 'auto', marginRight: 'auto', marginBottom: `1.45rem`, borderRadius: '100%', overflow: 'hidden' }}>
         <Image />
       </div>

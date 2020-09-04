@@ -5,12 +5,14 @@ import PortfolioIcon from '../components/portfolio-icon'
 import NpmjsImage from '../components/npmjs-image'
 import StrobelightImage from '../components/strobelight-image'
 import StackoverflowImage from '../components/stackoverflow-image'
+import SEO from '../components/seo'
 
 const Divider = ({ style }) => <div style={{ marginRight: 10, ...style }}>|</div>;
 
 export default function Portfolio() {
   return (
     <div>
+      <SEO title="Extension: Portfolio" />
       <div style={{
         display: 'flex',
         marginBottom: '1rem'
