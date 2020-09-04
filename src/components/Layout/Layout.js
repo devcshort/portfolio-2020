@@ -12,7 +12,7 @@ export default function Layout({ children, location }) {
       <StatusBar path={location.pathname} />
       <Sidebar />
       <Navbar path={location.pathname} />
-      <main style={{ paddingLeft: 60, paddingTop: 85, paddingRight: 10, overflowY: 'auto'  }}>
+      <main style={{ paddingLeft: 60, paddingTop: 85, paddingRight: 10, paddingBottom: 10, overflowY: 'auto'  }}>
         { children }
       </main>
     </div>

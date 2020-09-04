@@ -4,6 +4,7 @@ import { VscCloudDownload, VscStarFull, VscStarHalf } from 'react-icons/vsc'
 import PortfolioIcon from '../components/portfolio-icon'
 import NpmjsImage from '../components/npmjs-image'
 import StrobelightImage from '../components/strobelight-image'
+import StackoverflowImage from '../components/stackoverflow-image'
 
 const Divider = ({ style }) => <div style={{ marginRight: 10, ...style }}>|</div>;
 
@@ -82,6 +83,18 @@ export default function Portfolio() {
             <p style={{ margin: 0, fontWeight: 600, fontSize: '.8rem' }}>Android App</p>
             <p style={{ fontSize: '1rem', marginBottom: '.5rem' }}>This app was originally written in React Native to test the waters and figure out how to take an app from nothing all the way to deployed to the app store. Over the course of a year the app was installed on over 10,000 devices and I decided to rewrite and redesign the app using Flutter. Since then it has contined to become downloaded on more devices and gain quite a few reviews.</p>
             <p style={{ margin: 0 }}><a href="https://play.google.com/store/apps/details?id=com.chrisrshort.strobelight&hl=en_US" target="_blank" rel="noopener noreferrer">View in the Play Store</a></p>
+          </div>
+        </div>
+
+        <div style={{ display: 'flex', padding: '1rem', boxShadow: '2px 2px 11px rgba(0,0,0, 0.8)' }}>
+          <div style={{ width: 150, height: 150, marginRight: 10 }}>
+            <StackoverflowImage />
+          </div>
+          <div style={{ flex: 1 }}>
+            <h3 style={{ margin: 0 }}>StackInbox</h3>
+            <p style={{ margin: 0, fontWeight: 600, fontSize: '.8rem' }}>Chrome Extension</p>
+            <p style={{ fontSize: '1rem', marginBottom: '.5rem' }}>I got tired of having to keep an extra tab open just to watch over my Stack Overflow inbox for new notifications, so I built this extension to not only let me view my Stack Overflow inbox, but also show a notification icon when I have an unread message. I deployed it to the Chrome Store in case anyone else runs in to the same issues I do.</p>
+            <p style={{ margin: 0 }}><a href="https://chrome.google.com/webstore/detail/stackinbox/fphiplmebgimlmpikocgkdffkmmenmha" target="_blank" rel="noopener noreferrer">View in the Chrome Store</a></p>
           </div>
         </div>
       </div>

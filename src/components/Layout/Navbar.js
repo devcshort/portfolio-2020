@@ -5,6 +5,7 @@ import { FaMarkdown, FaJsSquare, FaFilePdf } from 'react-icons/fa'
 import { VscFile } from 'react-icons/vsc'
 
 const StyledNavbar = styled.nav`
+  background-color: #222B33;
   display: flex;
   height: 50px;
   padding-left: 50px;
