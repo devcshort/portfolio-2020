@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import resume from '../assets/resume.pdf'
-import SEO from '../components/seo'
+import resume from '../assets/resume.pdf';
+import SEO from '../components/seo';
 
 export default function Resume() {
   return (
@@ -16,5 +16,5 @@ export default function Resume() {
         <a href={resume} target="_blank" rel="noopener noreferrer">My Resume</a>
       </object>
     </>
-  )
+  );
 }

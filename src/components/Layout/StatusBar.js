@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const StyledStatusBar = styled.div`
   align-items: center;
@@ -10,26 +10,26 @@ const StyledStatusBar = styled.div`
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 9999;
-`
+`;
 
 const StyledStatusText = styled.p`
   font-family: Arial, Helvetica, sans-serif;
   font-size: .8rem;
   margin: 0;
-`
+`;
 
 const Dot = styled.div`
   border-radius: 100%;
   height: 12px;
   width: 12px;
-`
+`;
 
 const CurrentDocument = {
   '/': 'Preview README.md',
   '/about': 'about.js',
   '/resume': 'resume.pdf',
   '/portfolio': 'Extension: Portfolio'
-}
+};
 
 export default function StatusBar({ path }) {
   return (
@@ -42,5 +42,5 @@ export default function StatusBar({ path }) {
       <StyledStatusText>{ CurrentDocument[path] } - Chris R. Short</StyledStatusText>
       <div></div>
     </StyledStatusBar>
-  )
+  );
 }

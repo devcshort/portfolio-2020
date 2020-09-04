@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import styled from 'styled-components'
-import { FaMarkdown, FaJsSquare, FaFilePdf } from 'react-icons/fa'
-import { VscFile } from 'react-icons/vsc'
+import React from 'react';
+import { Link } from 'gatsby';
+import styled from 'styled-components';
+import { FaMarkdown, FaJsSquare, FaFilePdf } from 'react-icons/fa';
+import { VscFile } from 'react-icons/vsc';
 
 const StyledNavbar = styled.nav`
   background-color: #222B33;
@@ -39,7 +39,7 @@ const StyledLink = styled(Link)`
     position: absolute;
     bottom: 0; left: 0; right: 0;
   }
-`
+`;
 
 export default function Navbar({ path }) {
   return (
@@ -61,5 +61,5 @@ export default function Navbar({ path }) {
         Extension: Portfolio
       </StyledLink>
     </StyledNavbar>
-  )
+  );
 }

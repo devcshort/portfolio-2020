@@ -1,15 +1,15 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
-import SEO from '../components/seo'
+import SEO from '../components/seo';
 
 const GraySyntax = styled.span`
   color: #bfc7d5;
-`
+`;
 
 const PurpleSyntax = styled.span`
   color: #c792ea;
-`
+`;
 
 const GreenSyntax = styled.span`
   color: #c3e88d;
@@ -17,15 +17,15 @@ const GreenSyntax = styled.span`
 
 const YellowSyntax = styled.span`
   color: #ffcb6b;
-`
+`;
 
 const GoldSyntax = styled.span`
   color: gold;
-`
+`;
 
 const OrchidSyntax = styled.span`
   color: orchid;
-`
+`;
 
 export default function About() {
   return (
@@ -49,5 +49,5 @@ export default function About() {
         <code></code>
       </pre>
     </>
-  )
+  );
 }

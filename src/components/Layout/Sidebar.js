@@ -1,7 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-import { VscFiles, VscSourceControl, VscExtensions } from 'react-icons/vsc'
-import { FaLinkedinIn, FaBlog } from 'react-icons/fa'
+import React from 'react';
+import styled from 'styled-components';
+import { VscFiles, VscSourceControl, VscExtensions } from 'react-icons/vsc';
+import { FaLinkedinIn, FaBlog } from 'react-icons/fa';
 
 const StyledSidebar = styled.div`
   background-color: #1d252b;
@@ -12,7 +12,7 @@ const StyledSidebar = styled.div`
   top: 25px; left: 0; bottom: 0;
   width: 50px;
   z-index: 99999;
-`
+`;
 
 const IconButton = styled.div`
   align-items: center;
@@ -34,7 +34,7 @@ const IconButton = styled.div`
     top: 0; left: 0; bottom: 0;
     width: 2px;
   }
-`
+`;
 
 const IconLink = styled.a`
   align-items: center;
@@ -47,7 +47,7 @@ const IconLink = styled.a`
   &:hover {
     color: #fff;
   }
-`
+`;
 
 export default function Sidebar() {
   return (
@@ -68,5 +68,5 @@ export default function Sidebar() {
         <FaLinkedinIn />
       </IconLink>
     </StyledSidebar>
-  )
+  );
 }

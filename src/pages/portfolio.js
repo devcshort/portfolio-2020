@@ -1,11 +1,11 @@
-import React from 'react'
-import { VscCloudDownload, VscStarFull, VscStarHalf } from 'react-icons/vsc'
+import React from 'react';
+import { VscCloudDownload, VscStarFull, VscStarHalf } from 'react-icons/vsc';
 
-import PortfolioIcon from '../components/portfolio-icon'
-import NpmjsImage from '../components/npmjs-image'
-import StrobelightImage from '../components/strobelight-image'
-import StackoverflowImage from '../components/stackoverflow-image'
-import SEO from '../components/seo'
+import PortfolioIcon from '../components/portfolio-icon';
+import NpmjsImage from '../components/npmjs-image';
+import StrobelightImage from '../components/strobelight-image';
+import StackoverflowImage from '../components/stackoverflow-image';
+import SEO from '../components/seo';
 
 const Divider = ({ style }) => <div style={{ marginRight: 10, ...style }}>|</div>;
 
@@ -107,5 +107,5 @@ export default function Portfolio() {
         </div>
       </div>
     </div>
-  )
+  );
 }

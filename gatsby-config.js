@@ -1,44 +1,44 @@
 module.exports = {
   siteMetadata: {
-    title: `Chris R. Short`,
-    description: `Passionate and detail-oriented software developer with a systematic approach to problem-solving and ability to work in a team environment, I am seeking to advance my career as a software developer where I can contribute my experience, education, and leadership.`,
-    author: `@devcshort`,
+    title: 'Chris R. Short',
+    description: 'Passionate and detail-oriented software developer with a systematic approach to problem-solving and ability to work in a team environment, I am seeking to advance my career as a software developer where I can contribute my experience, education, and leadership.',
+    author: '@devcshort',
   },
   plugins: [
-    `gatsby-plugin-remove-trailing-slashes`,
-    `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-remove-trailing-slashes',
+    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
+        name: 'images',
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
-      resolve: `gatsby-plugin-styled-components`,
+      resolve: 'gatsby-plugin-styled-components',
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [
-          `Inconsolata\:300,600,900`
+          'Inconsolata:300,600,900'
         ],
         display: 'swap'
       }
     },
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `Chris R. Short`,
-        short_name: `Chris R. Short`,
-        start_url: `/`,
-        background_color: `#00aced`,
-        theme_color: `#00aced`,
-        display: `minimal-ui`,
-        icon: `src/images/favicon.png`,
+        name: 'Chris R. Short',
+        short_name: 'Chris R. Short',
+        start_url: '/',
+        background_color: '#00aced',
+        theme_color: '#00aced',
+        display: 'minimal-ui',
+        icon: 'src/images/favicon.png',
       },
     },
   ],
-}
+};
