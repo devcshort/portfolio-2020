@@ -28,7 +28,8 @@ const CurrentDocument = {
   '/': 'Preview README.md',
   '/about': 'about.js',
   '/resume': 'resume.pdf',
-  '/portfolio': 'Extension: Portfolio'
+  '/portfolio': 'Extension: Portfolio',
+  '/apps/strobelight/privacy-policy': 'Strobe Light (Ad Free) Privacy Policy'
 };
 
 export default function StatusBar({ path }) {
