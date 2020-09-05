@@ -42,7 +42,7 @@ export default function About() {
         <code><GoldSyntax>&#125;</GoldSyntax></code>
         <code></code>
         <code><PurpleSyntax>class</PurpleSyntax> <GoldSyntax>Skills</GoldSyntax> <PurpleSyntax>extends</PurpleSyntax> <YellowSyntax>SoftwareDeveloper</YellowSyntax> <GoldSyntax>&#123;</GoldSyntax></code>
-        <code>  <GraySyntax>languages</GraySyntax>   <PurpleSyntax>=</PurpleSyntax> <OrchidSyntax>[</OrchidSyntax><GreenSyntax>'JavaScript'</GreenSyntax><GraySyntax>,</GraySyntax> <GreenSyntax>'C#'</GreenSyntax><OrchidSyntax>]</OrchidSyntax><GraySyntax>;</GraySyntax></code>
+        <code>  <GraySyntax>languages</GraySyntax>   <PurpleSyntax>=</PurpleSyntax> <OrchidSyntax>[</OrchidSyntax><GreenSyntax>'JavaScript'</GreenSyntax><GraySyntax>,</GraySyntax> <GreenSyntax>'TypeScript'</GreenSyntax><GraySyntax>,</GraySyntax> <GreenSyntax>'C#'</GreenSyntax><OrchidSyntax>]</OrchidSyntax><GraySyntax>;</GraySyntax></code>
         <code>  <GraySyntax>databases</GraySyntax>   <PurpleSyntax>=</PurpleSyntax> <OrchidSyntax>[</OrchidSyntax><GreenSyntax>'MongoDB'</GreenSyntax><GraySyntax>,</GraySyntax> <GreenSyntax>'DynamoDB'</GreenSyntax><OrchidSyntax>]</OrchidSyntax><GraySyntax>;</GraySyntax></code>
         <code>  <GraySyntax>frameworks</GraySyntax>  <PurpleSyntax>=</PurpleSyntax> <OrchidSyntax>[</OrchidSyntax><GreenSyntax>'React'</GreenSyntax><GraySyntax>,</GraySyntax> <GreenSyntax>'Vue'</GreenSyntax><GraySyntax>,</GraySyntax> <GreenSyntax>'.NET Framework/Core'</GreenSyntax><OrchidSyntax>]</OrchidSyntax><GraySyntax>;</GraySyntax></code>
         <code><GoldSyntax>&#125;</GoldSyntax></code>
