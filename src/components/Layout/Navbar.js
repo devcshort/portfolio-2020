@@ -8,10 +8,17 @@ const StyledNavbar = styled.nav`
   background-color: #222B33;
   display: flex;
   height: 50px;
+  overflow-x: auto;
   padding-left: 50px;
   position: fixed;
   top: 25px; left: 0; right: 0;
   z-index: 9999;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 `;
 
 const StyledLink = styled(Link)`
