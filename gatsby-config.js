@@ -3,9 +3,11 @@ module.exports = {
     title: 'Chris R. Short',
     description: 'Passionate and detail-oriented software developer with a systematic approach to problem-solving and ability to work in a team environment, I am seeking to advance my career as a software developer where I can contribute my experience, education, and leadership.',
     author: '@devcshort',
+    siteUrl: 'https://www.chrisrshort.com'
   },
   plugins: [
     'gatsby-plugin-remove-trailing-slashes',
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
